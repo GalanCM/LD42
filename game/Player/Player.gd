@@ -18,8 +18,22 @@ func _physics_process(delta):
 		
 	move_and_slide(motion * 540)
 
-	velocity_modifier.x = max( velocity_modifier.x - 5 * delta, 0)
-	velocity_modifier.y = max( velocity_modifier.y - 5 * delta, 0)
+	var FRICTION = 5 * delta
+	if velocity_modifier.x < FRICTION and velocity_modifier.x > -FRICTION:
+		velocity_modifier.x = 0
+	else:
+		if velocity_modifier.x > 0:
+			velocity_modifier.x -= FRICTION
+		else:
+			velocity_modifier.x += FRICTION
+	if velocity_modifier.y < FRICTION and velocity_modifier.y > -FRICTION:
+		velocity_modifier.y = 0
+	else:
+		if velocity_modifier.y > 0:
+			velocity_modifier.y -= FRICTION
+		else:
+			velocity_modifier.y += FRICTION
 	
 func push( force ):
-	velocity_modifier = force / 5
+#	print(force)
+	velocity_modifier += force / 4
