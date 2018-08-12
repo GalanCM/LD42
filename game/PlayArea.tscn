@@ -68,7 +68,7 @@ extents = Vector2( 960, 960 )
 custom_solver_bias = 0.0
 extents = Vector2( 960, 960 )
 
-[node name="PlayArea" type="Node2D" index="0"]
+[node name="PlayArea" type="Node2D"]
 
 script = ExtResource( 1 )
 

@@ -50,11 +50,6 @@
     </linearGradient>
     <pattern
        inkscape:collect="always"
-       xlink:href="#pattern16464"
-       id="pattern16488"
-       patternTransform="matrix(0.25576387,0,0,0.26402982,239.34208,-41.632342)" />
-    <pattern
-       inkscape:collect="always"
        xlink:href="#pattern16316"
        id="pattern16340"
        patternTransform="matrix(0.26458333,0,0,0.26458333,236.87957,-88.420427)" />
@@ -331,6 +326,139 @@
        r="2.1166666"
        gradientTransform="matrix(-2,2.0311738e-6,-2.031173e-6,-0.49999981,571.89013,241.10915)"
        gradientUnits="userSpaceOnUse" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath16771">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.52916664;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect16773"
+         width="16.933332"
+         height="16.933332"
+         x="203.2"
+         y="-41.66666" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath16775">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.52916664;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect16777"
+         width="16.933332"
+         height="16.933332"
+         x="203.2"
+         y="-41.66666" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath16779">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.52916664;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect16781"
+         width="16.933332"
+         height="16.933332"
+         x="203.2"
+         y="-41.66666" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath16783">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.52916664;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect16785"
+         width="16.933332"
+         height="16.933332"
+         x="203.2"
+         y="-41.66666" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath16787">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.52916664;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect16789"
+         width="16.933332"
+         height="16.933332"
+         x="203.2"
+         y="-41.66666" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath16791">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.52916664;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect16793"
+         width="16.933332"
+         height="16.933332"
+         x="203.2"
+         y="-41.66666" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath16795">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.52916664;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect16797"
+         width="16.933332"
+         height="16.933332"
+         x="203.2"
+         y="-41.66666" />
+    </clipPath>
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="63.999999"
+       height="63.999999"
+       patternTransform="matrix(0.26458333,0,0,0.26458333,203.2,-41.66666)"
+       id="pattern16799">
+      <path
+         clip-path="url(#clipPath16795)"
+         inkscape:connector-curvature="0"
+         id="path16577"
+         d="m 203.2,-24.73333 16.93333,-16.933333"
+         style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.52916664;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.25098039"
+         transform="matrix(3.7795277,0,0,3.7795277,-768.00001,157.4803)" />
+      <path
+         clip-path="url(#clipPath16791)"
+         style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.52916664;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.25098039"
+         d="m 203.2,-20.499994 16.93333,-16.933333"
+         id="path16579"
+         inkscape:connector-curvature="0"
+         transform="matrix(3.7795277,0,0,3.7795277,-768.00001,157.4803)" />
+      <path
+         clip-path="url(#clipPath16787)"
+         inkscape:connector-curvature="0"
+         id="path16581"
+         d="m 203.2,-16.266658 16.93333,-16.933333"
+         style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.52916664;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.25098039"
+         transform="matrix(3.7795277,0,0,3.7795277,-768.00001,157.4803)" />
+      <path
+         clip-path="url(#clipPath16783)"
+         style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.52916664;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.25098039"
+         d="m 203.2,-12.033322 16.93333,-16.933333"
+         id="path16583"
+         inkscape:connector-curvature="0"
+         transform="matrix(3.7795277,0,0,3.7795277,-768.00001,157.4803)" />
+      <path
+         clip-path="url(#clipPath16779)"
+         style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.52916664;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.25098039"
+         d="m 203.2,-28.966666 16.93333,-16.933333"
+         id="path16585"
+         inkscape:connector-curvature="0"
+         transform="matrix(3.7795277,0,0,3.7795277,-768.00001,157.4803)" />
+      <path
+         clip-path="url(#clipPath16775)"
+         inkscape:connector-curvature="0"
+         id="path16587"
+         d="m 203.2,-33.200002 16.93333,-16.933333"
+         style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.52916664;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.25098039"
+         transform="matrix(3.7795277,0,0,3.7795277,-768.00001,157.4803)" />
+      <path
+         clip-path="url(#clipPath16771)"
+         style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.52916664;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.25098039"
+         d="m 203.2,-37.433338 16.93333,-16.933333"
+         id="path16589"
+         inkscape:connector-curvature="0"
+         transform="matrix(3.7795277,0,0,3.7795277,-768.00001,157.4803)" />
+    </pattern>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -339,9 +467,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="1207.8855"
-     inkscape:cy="1347.1493"
+     inkscape:zoom="2"
+     inkscape:cx="1216.216"
+     inkscape:cy="1265.5737"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -362,7 +490,7 @@
      inkscape:snap-bbox-midpoints="true"
      inkscape:snap-bbox-edge-midpoints="true"
      inkscape:snap-global="true"
-     inkscape:snap-grids="false">
+     inkscape:snap-grids="true">
     <inkscape:grid
        type="xygrid"
        id="grid4747"
@@ -648,16 +776,12 @@
        inkscape:export-filename="/Users/dev-galan/projects/LD42/game/Stars/stars.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
-    <rect
-       style="opacity:1;fill:url(#pattern16488);fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.05833316;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+    <path
+       style="opacity:1;fill:url(#pattern16799);fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.05833328;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 307.975,-277.67499 h 10.05416 l 2.64584,2.64584 v 247.12082 l -2.64584,2.645833 H 307.975 l -2.64584,-2.645833 v -247.12082 z"
        id="rect14762"
-       width="15.345833"
-       height="252.41249"
-       x="305.32916"
-       y="-277.67499"
-       inkscape:export-filename="/Users/dev-galan/projects/LD42/game/Enemies/cannon_block.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc" />
     <g
        id="g14746"
        inkscape:export-filename="/Users/dev-galan/projects/LD42/game/Enemies/rapid_cannon.png"
@@ -732,7 +856,8 @@
        height="16.933332"
        x="237.06667"
        y="-41.66666"
-       id="rect16474" />
+       id="rect16474"
+       mask="none" />
     <circle
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.52916664;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path16478"
@@ -787,19 +912,32 @@
        inkscape:export-filename="/Users/dev-galan/projects/LD42/game/Enemies/laser_guide.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
-    <path
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.86501384;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 1246 -1000.5684 A 22.567494 22.567494 0 0 0 1223.4316 -978 A 22.567494 22.567494 0 0 0 1240 -956.26953 L 1240 -972 L 1252 -972 L 1252 -956.24805 A 22.567494 22.567494 0 0 0 1268.5684 -978 A 22.567494 22.567494 0 0 0 1246 -1000.5684 z "
-       transform="matrix(0.26458333,0,0,0.26458333,0,225.5625)"
-       id="circle16548" />
-    <circle
-       r="5.9709826"
-       cy="-33.199997"
-       cx="329.67084"
-       id="circle16544"
-       style="opacity:1;fill:none;fill-opacity:0.50196078;stroke:#616161;stroke-width:0.75803488;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/dev-galan/projects/LD42/game/Enemies/path14742.png"
+    <g
+       id="g16575"
+       inkscape:export-filename="/Users/dev-galan/projects/LD42/game/Enemies/laser_cannon.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96">
+      <path
+         transform="matrix(0.26458333,0,0,0.26458333,0,225.5625)"
+         id="path16568"
+         d="M 1250.75 -1005.9102 A 24 24 0 0 0 1230.75 -982.25 A 24 24 0 0 0 1250.75 -958.61133 L 1250.75 -1005.9102 z M 1258.75 -1005.8887 L 1258.75 -958.58984 A 24 24 0 0 0 1278.75 -982.25 A 24 24 0 0 0 1258.75 -1005.8887 z "
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <circle
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="/Users/dev-galan/projects/LD42/game/Enemies/laser_cannon.png"
+         style="opacity:1;fill:none;fill-opacity:0.50196078;stroke:#616161;stroke-width:0.75803488;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle16544"
+         cx="331.98593"
+         cy="-34.324474"
+         r="5.9709826" />
+    </g>
+    <rect
+       style="stroke:none;fill:url(#pattern16799)"
+       width="16.933332"
+       height="16.933332"
+       x="203.2"
+       y="-41.66666"
+       id="rect16808" />
   </g>
 </svg>

@@ -8,3 +8,6 @@ func _physics_process(delta):
 		return
 	if overlaps_body(player):
 		player.take_damage(1)
+		
+	if position.y > 1180:
+		queue_free()

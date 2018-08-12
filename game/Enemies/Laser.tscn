@@ -80,7 +80,7 @@ tracks/2/loop_wrap = true
 tracks/2/imported = false
 tracks/2/enabled = true
 tracks/2/keys = {
-"times": PoolRealArray( 2, 2.2, 2.8, 3 ),
+"times": PoolRealArray( 2, 2.2, 2.8, 2.9 ),
 "transitions": PoolRealArray( 1, 1, 1, 1 ),
 "update": 0,
 "values": [ Color( 0, 1, 0.976562, 0 ), Color( 0, 1, 0.976471, 0.376471 ), Color( 0, 1, 0.976471, 0.498039 ), Color( 0, 1, 0.976471, 0 ) ]
@@ -92,7 +92,7 @@ tracks/3/loop_wrap = true
 tracks/3/imported = false
 tracks/3/enabled = true
 tracks/3/keys = {
-"times": PoolRealArray( 2, 2.2, 2.8, 3 ),
+"times": PoolRealArray( 2, 2.2, 2.8, 2.9 ),
 "transitions": PoolRealArray( 1, 1, 1, 1 ),
 "update": 0,
 "values": [ Color( 0, 1, 0.976471, 0 ), Color( 0, 1, 0.976471, 0.376471 ), Color( 0, 1, 0.976471, 0.498039 ), Color( 0, 1, 0.976471, 0 ) ]
@@ -142,7 +142,7 @@ _sections_unfolded = [ "Offset", "Visibility" ]
 
 [node name="Particles2D" type="Particles2D" parent="." index="3"]
 
-modulate = Color( 1, 0, 0.960938, 1 )
+modulate = Color( 0.265625, 1, 0, 1 )
 rotation = 1.5708
 emitting = false
 amount = 1920

@@ -1,7 +1,7 @@
 extends Node2D
 
 var current_area = 1_600_000
-var cannon_density = 0.15
+var cannon_density = 0.05
 
 var allow_new_cannons = false
 
@@ -50,19 +50,27 @@ func create_space():
 	create_cannons(new_dimensions, padding)
 	
 func create_cannons(dimensions, padding):
-	var cannon_count = floor(dimensions.x * dimensions.y / 4096 / ( 100 * cannon_density ) )
-	var grid_size = Vector2( floor(dimensions.x / 64), floor(dimensions.y / 64) )
+	var cannon_count = floor( (dimensions.x/64) * (dimensions.y/64) * cannon_density )
+	print(cannon_count)
+	var grid_size = Vector2( floor(dimensions.x / 64), floor(dimensions.y / 64 ) )
 	var cannon_locations = []
 	
 	for cannon_num in range(0, cannon_count):
 		while true:
 			var location = Vector2( randi() % int(grid_size.x), randi() % int(grid_size.y) )
-			if not location in cannon_locations and location.distance_to( Vector2(grid_size.x/2, grid_size.y) ) > grid_size.x/2:
+			if not location in cannon_locations and location.distance_to( Vector2(grid_size.x/2, grid_size.y) ) > (grid_size.x + grid_size.y)/4 and location.y < grid_size.y * 0.8:
 				cannon_locations.append( location )
 				
-				var new_cannon = preload("res://Enemies/LaserCannon.tscn").instance()
-				new_cannon.position.x = location.x * 64 + padding.x
-				new_cannon.position.y = location.y * 64 + padding.y
+				var cannon_rand = randi() % 100
+				var new_cannon
+				if cannon_rand < 50:
+					new_cannon = preload("res://Enemies/LaserCannon.tscn").instance()
+					new_cannon.get_node("Cannon").spawn_delay = [1,3][randi() % 2]
+				else:
+					new_cannon = preload("res://Enemies/RapidCannon.tscn").instance()
+					new_cannon.get_node("Cannon").spawn_delay = [0,2][randi() % 2]
+				new_cannon.position.x = location.x * 64 + padding.x + 32
+				new_cannon.position.y = location.y * 64 + padding.y + 32
 				
 				if location.y < location.x and location.y < grid_size.x - location.x:
 					pass
@@ -77,4 +85,4 @@ func create_cannons(dimensions, padding):
 				break
 				
 	allow_new_cannons = true
-	cannon_density *= 0.8
+#	cannon_density -= cannon_density * 0.1

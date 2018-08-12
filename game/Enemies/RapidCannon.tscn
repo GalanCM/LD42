@@ -1,7 +1,7 @@
 [gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Enemies/cannon_block.png" type="Texture" id=1]
-[ext_resource path="res://Enemies/LaserCannnon.gd" type="Script" id=2]
+[ext_resource path="res://Enemies/RapidCannon.gd" type="Script" id=2]
 [ext_resource path="res://Enemies/rapid_cannon.png" type="Texture" id=3]
 
 [sub_resource type="RectangleShape2D" id=1]
@@ -123,7 +123,7 @@ tracks/4/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[node name="RapidCannon" type="KinematicBody2D" groups=[
+[node name="RapidCannon" type="KinematicBody2D" index="0" groups=[
 "Enemies",
 ]]
 

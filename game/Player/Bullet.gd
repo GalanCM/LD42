@@ -11,3 +11,6 @@ func _physics_process(delta):
 			collider.take_damage(1)
 			
 			queue_free()
+	
+	if position.y < -100:
+		queue_free()
