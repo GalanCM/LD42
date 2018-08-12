@@ -5,20 +5,32 @@ const MOVEMENT_SPEED = 360
 var velocity_modifier = Vector2()
 
 var bullet_cooled = true
+var dodge = null
 
 func _physics_process(delta):
-	var motion = velocity_modifier
+	var motion = Vector2()
 	
-	if Input.is_action_pressed("Up"):
-		motion.y += -1
-	if Input.is_action_pressed("Down"):
-		motion.y += 1
-	if Input.is_action_pressed("Left"):
-		motion.x += -1
-	if Input.is_action_pressed("Right"):
-		motion.x += 1
+	if dodge == null:
+		if Input.is_action_pressed("Up"):
+			motion.y += -1
+		if Input.is_action_pressed("Down"):
+			motion.y += 1
+		if Input.is_action_pressed("Left"):
+			motion.x += -1
+		if Input.is_action_pressed("Right"):
+			motion.x += 1
+			
+		if Input.is_action_just_pressed("Dodge"):
+			dodge = motion * 5
+			$DodgeParticles.emitting = true
+			
+			yield(get_tree().create_timer(0.2), "timeout")
+			dodge = null
+	else:
+		dodge *= 0.9
+		motion = dodge
 		
-	move_and_slide(motion * 540)
+	move_and_slide( (motion + velocity_modifier) * 540)
 
 	var FRICTION = 5 * delta
 	if velocity_modifier.x < FRICTION and velocity_modifier.x > -FRICTION:
@@ -48,6 +60,7 @@ func _physics_process(delta):
 	
 func push( force ):
 	velocity_modifier += force / 4
+	var dodge = null
 	
 func take_damage(amount):
 	return
