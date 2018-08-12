@@ -154,7 +154,7 @@ extents = Vector2( 960, 960 )
 custom_solver_bias = 0.0
 extents = Vector2( 960, 960 )
 
-[node name="PlayArea" type="Node2D"]
+[node name="PlayArea" type="Node2D" index="0"]
 
 script = ExtResource( 1 )
 
@@ -333,28 +333,21 @@ position = Vector2( -968, -25 )
 texture = ExtResource( 5 )
 _sections_unfolded = [ "Offset", "Transform", "Visibility" ]
 
-[node name="BG2" type="Sprite" parent="LeftWall" index="1"]
+[node name="Body" type="Sprite" parent="LeftWall" index="1"]
 
-self_modulate = Color( 0.0705882, 0.0705882, 0.576471, 1 )
-position = Vector2( -968, -25 )
-texture = ExtResource( 5 )
-_sections_unfolded = [ "Offset", "Transform", "Visibility" ]
-
-[node name="Body" type="Sprite" parent="LeftWall" index="2"]
-
-self_modulate = Color( 0.875, 0.410156, 0, 1 )
+self_modulate = Color( 0.4, 0, 0.623529, 1 )
 position = Vector2( -968, -25 )
 texture = ExtResource( 6 )
 _sections_unfolded = [ "Offset", "Transform", "Visibility" ]
 
-[node name="Outline" type="Sprite" parent="LeftWall" index="3"]
+[node name="Outline" type="Sprite" parent="LeftWall" index="2"]
 
 position = Vector2( -4, -25 )
 z_index = 1
 texture = ExtResource( 7 )
 _sections_unfolded = [ "Offset", "Transform", "Visibility", "Z Index" ]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="LeftWall" index="4"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LeftWall" index="3"]
 
 visible = false
 position = Vector2( -957, -25 )
@@ -383,7 +376,7 @@ _sections_unfolded = [ "Offset", "Transform", "Visibility" ]
 
 [node name="Body" type="Sprite" parent="RightWall" index="1"]
 
-self_modulate = Color( 0.875, 0.410156, 0, 1 )
+self_modulate = Color( 0.400391, 0, 0.625, 1 )
 position = Vector2( 963, -25 )
 rotation = 3.14159
 texture = ExtResource( 6 )
