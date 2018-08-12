@@ -36,9 +36,14 @@ func _physics_process(delta):
 func fire():
 	$Laser/AnimationPlayer.play("Fire")
 	
+	yield(get_tree().create_timer(2), "timeout")
+	var laser_player = Game.get_unique_node("LaserPlayer")
+	laser_player.play()
+	
 func take_damage(amount):
 	health -= amount
 	$AnimationPlayer.play("Shake")
+	$"../HitPlayer".play()
 	
 	if health <= 0:
 		get_parent().queue_free()

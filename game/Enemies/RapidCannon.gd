@@ -33,10 +33,14 @@ func fire():
 	var bullet = preload("res://Enemies/Bullet.tscn").instance()
 	bullet.global_transform = global_transform
 	Game.get_unique_node("BulletLayer").add_child(bullet)
+	
+	var rapid_player = Game.get_unique_node("RapidPlayer")
+	rapid_player.play()
 
 func take_damage(amount):
 	health -= amount
 	$AnimationPlayer.play("Shake")
+	$"../HitPlayer".play()
 
 	if health <= 0:
 		get_parent().queue_free()

@@ -68,6 +68,8 @@ func _physics_process(delta):
 		
 		Game.get_unique_node("BulletLayer").add_child( bullet )
 		
+		$ShotPlayer.play()
+		
 		bullet_cooled = false
 		yield(get_tree().create_timer(0.15), "timeout")
 		bullet_cooled = true
@@ -83,6 +85,7 @@ func take_damage(amount):
 	health -= amount
 	
 	invulnerable = true
-	yield(get_tree().create_timer(0.5), "timeout")
+	$AnimationPlayer.play("TakeDamage")
+	yield($AnimationPlayer, "animation_finished")
 	invulnerable = false
 	
