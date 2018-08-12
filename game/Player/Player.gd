@@ -84,8 +84,14 @@ func take_damage(amount):
 		
 	health -= amount
 	
+	Game.get_unique_node("Camera").get_node("AnimationPlayer").play("Shake")
+	
 	invulnerable = true
-	$AnimationPlayer.play("TakeDamage")
-	yield($AnimationPlayer, "animation_finished")
-	invulnerable = false
+	if health > 0:
+		$AnimationPlayer.play("TakeDamage")
+		yield($AnimationPlayer, "animation_finished")
+		invulnerable = false
+		
+	else:
+		$AnimationPlayer.play("Death")
 	
