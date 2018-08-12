@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 const MOVEMENT_SPEED = 360
 
-const MAX_HEALTH = 10.0
+const MAX_HEALTH = 5.0
 var health = MAX_HEALTH
 
 const MAX_STAMINA = 3
@@ -94,4 +94,8 @@ func take_damage(amount):
 		
 	else:
 		$AnimationPlayer.play("Death")
+		
+		yield($AnimationPlayer, "animation_finished")
+		get_node("/root").add_child( load("res://Erased.tscn").instance() )
+		queue_free()
 	

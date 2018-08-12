@@ -34,6 +34,8 @@ func _physics_process(delta):
 	rotate(-PI/2)
 	
 func fire():
+	if Game.get_unique_node("Player") == null:
+		return
 	$Laser/AnimationPlayer.play("Fire")
 	
 	yield(get_tree().create_timer(2), "timeout")

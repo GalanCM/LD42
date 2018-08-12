@@ -30,6 +30,8 @@ func _physics_process(delta):
 	rotate(-PI/2)
 
 func fire():
+	if Game.get_unique_node("Player") == null:
+		return
 	var bullet = preload("res://Enemies/Bullet.tscn").instance()
 	bullet.global_transform = global_transform
 	Game.get_unique_node("BulletLayer").add_child(bullet)

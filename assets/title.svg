@@ -12,42 +12,17 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1920"
-   height="270"
-   viewBox="0 0 507.99999 71.437497"
+   height="1080"
+   viewBox="0 0 507.99999 285.74999"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.2 5c3e80d, 2017-08-06"
-   sodipodi:docname="mockup2.svg">
+   sodipodi:docname="title.svg"
+   inkscape:export-filename="/Users/dev-galan/projects/LD42/game/title.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <defs
      id="defs2">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient16516">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:0.49803922"
-         offset="0"
-         id="stop16512" />
-      <stop
-         id="stop16520"
-         offset="0.30525002"
-         style="stop-color:#ffffff;stop-opacity:0.13725491" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:0.01960784"
-         offset="1"
-         id="stop16514" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient16504">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop16500" />
-      <stop
-         style="stop-color:#000000;stop-opacity:0.01515152"
-         offset="1"
-         id="stop16502" />
-    </linearGradient>
     <pattern
        inkscape:collect="always"
        xlink:href="#pattern16316"
@@ -85,22 +60,6 @@
          style="stop-color:#ffffff;stop-opacity:1;"
          offset="0"
          id="stop16253" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient14736">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop14732" />
-      <stop
-         id="stop14740"
-         offset="0.36363634"
-         style="stop-color:#ffffff;stop-opacity:0.69019608;" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:0.50196081"
-         offset="1"
-         id="stop14734" />
     </linearGradient>
     <mask
        maskUnits="userSpaceOnUse"
@@ -154,15 +113,6 @@
          style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.83919954;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          inkscape:connector-curvature="0" />
     </mask>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient14736"
-       id="linearGradient14738"
-       x1="-16.933332"
-       y1="398.60001"
-       x2="-203.2"
-       y2="398.60001"
-       gradientUnits="userSpaceOnUse" />
     <pattern
        patternUnits="userSpaceOnUse"
        width="65.41424"
@@ -305,27 +255,6 @@
            style="fill:none;fill-rule:evenodd;stroke:#303030;stroke-width:0.52916664;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       </g>
     </pattern>
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient16504"
-       id="radialGradient16506"
-       cx="279.58084"
-       cy="-45.200966"
-       fx="279.58084"
-       fy="-45.200966"
-       r="2.1166666"
-       gradientUnits="userSpaceOnUse" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient16516"
-       id="radialGradient16518"
-       cx="263.66663"
-       cy="-44.05555"
-       fx="263.66663"
-       fy="-44.05555"
-       r="2.1166666"
-       gradientTransform="matrix(-2,2.0311738e-6,-2.031173e-6,-0.49999981,571.89013,241.10915)"
-       gradientUnits="userSpaceOnUse" />
     <clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath16771">
@@ -462,14 +391,14 @@
   </defs>
   <sodipodi:namedview
      id="base"
-     pagecolor="#00007b"
+     pagecolor="#00008a"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="1143.6762"
-     inkscape:cy="-423.56729"
+     inkscape:zoom="0.25"
+     inkscape:cx="1236.9308"
+     inkscape:cy="1181.9846"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -485,9 +414,9 @@
      inkscape:snap-bbox="true"
      inkscape:snap-nodes="true"
      inkscape:bbox-paths="false"
-     inkscape:bbox-nodes="true"
+     inkscape:bbox-nodes="false"
      inkscape:snap-page="false"
-     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-bbox-midpoints="false"
      inkscape:snap-bbox-edge-midpoints="true"
      inkscape:snap-global="true"
      inkscape:snap-grids="true">
@@ -514,273 +443,41 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-225.5625)"
+     transform="translate(0,-11.250007)"
      style="opacity:1">
-    <g
-       id="g10209"
-       style="opacity:0.213">
-      <use
-         transform="translate(149.42934,-244.85827)"
-         height="100%"
-         width="100%"
-         y="0"
-         x="0"
-         xlink:href="#g10163"
-         inkscape:spray-origin="#g10163"
-         id="use10167"
-         style="" />
-      <use
-         transform="translate(165.50964,-225.9852)"
-         height="100%"
-         width="100%"
-         y="0"
-         x="0"
-         xlink:href="#g10163"
-         inkscape:spray-origin="#g10163"
-         id="use10169"
-         style="" />
-      <use
-         transform="translate(235.78099,-301.28603)"
-         height="100%"
-         width="100%"
-         y="0"
-         x="0"
-         xlink:href="#g10163"
-         inkscape:spray-origin="#g10163"
-         id="use10171"
-         style="" />
-      <use
-         transform="translate(203.47046,-274.68881)"
-         height="100%"
-         width="100%"
-         y="0"
-         x="0"
-         xlink:href="#g10163"
-         inkscape:spray-origin="#g10163"
-         id="use10173"
-         style="" />
-      <use
-         transform="translate(145.65961,-273.78024)"
-         height="100%"
-         width="100%"
-         y="0"
-         x="0"
-         xlink:href="#g10163"
-         inkscape:spray-origin="#g10163"
-         id="use10175"
-         style="" />
-      <use
-         transform="translate(97.957942,-274.75318)"
-         height="100%"
-         width="100%"
-         y="0"
-         x="0"
-         xlink:href="#g10163"
-         inkscape:spray-origin="#g10163"
-         id="use10177"
-         style="" />
-      <use
-         transform="translate(71.034769,-234.11489)"
-         height="100%"
-         width="100%"
-         y="0"
-         x="0"
-         xlink:href="#g10163"
-         inkscape:spray-origin="#g10163"
-         id="use10179"
-         style="" />
-      <use
-         transform="translate(303.4783,-251.37441)"
-         height="100%"
-         width="100%"
-         y="0"
-         x="0"
-         xlink:href="#g10163"
-         inkscape:spray-origin="#g10163"
-         id="use10181"
-         style="" />
-      <use
-         transform="translate(300.23938,-204.84732)"
-         height="100%"
-         width="100%"
-         y="0"
-         x="0"
-         xlink:href="#g10163"
-         inkscape:spray-origin="#g10163"
-         id="use10183"
-         style="" />
-      <use
-         transform="translate(290.41662,-159.39338)"
-         height="100%"
-         width="100%"
-         y="0"
-         x="0"
-         xlink:href="#g10163"
-         inkscape:spray-origin="#g10163"
-         id="use10185"
-         style="" />
-      <use
-         transform="translate(235.32951,-181.38838)"
-         height="100%"
-         width="100%"
-         y="0"
-         x="0"
-         xlink:href="#g10163"
-         inkscape:spray-origin="#g10163"
-         id="use10187"
-         style="" />
-      <use
-         transform="translate(181.93291,-188.78412)"
-         height="100%"
-         width="100%"
-         y="0"
-         x="0"
-         xlink:href="#g10163"
-         inkscape:spray-origin="#g10163"
-         id="use10189"
-         style="" />
-      <use
-         transform="translate(120.76143,-172.9403)"
-         height="100%"
-         width="100%"
-         y="0"
-         x="0"
-         xlink:href="#g10163"
-         inkscape:spray-origin="#g10163"
-         id="use10191"
-         style="" />
-      <use
-         transform="translate(41.862972,-196.38187)"
-         height="100%"
-         width="100%"
-         y="0"
-         x="0"
-         xlink:href="#g10163"
-         inkscape:spray-origin="#g10163"
-         id="use10193"
-         style="" />
-    </g>
     <path
        inkscape:connector-curvature="0"
        id="path4878"
        d="m 16.271884,179.12813 v 16.93334 h 33.866661 v 16.93333 h 16.933328 v -16.93333 -16.93334 z"
        style="opacity:1;fill:#ffffff;fill-opacity:0.98104266;stroke:#000000;stroke-width:1.32291663;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <rect
-       style="opacity:1;fill:#f77000;fill-opacity:1;stroke:#ffffff;stroke-width:2.11280489;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.83838387"
+       style="opacity:1;fill:#66009e;fill-opacity:1;stroke:none;stroke-width:2.11280489;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.83838387"
        id="rect9567"
-       width="220.13719"
-       height="286.81219"
-       x="1.0564024"
-       y="9.1314001" />
-    <rect
-       style="opacity:1;fill:#f77000;fill-opacity:1;stroke:#ffffff;stroke-width:2.11666656;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.83838387"
-       id="rect9584"
-       width="50.799953"
+       width="287.86667"
        height="287.86667"
-       x="457.19998"
-       y="9.1333408" />
+       x="1.4088241e-07"
+       y="9.133337" />
     <rect
-       style="opacity:1;fill:#600083;fill-opacity:1;stroke:#00007b;stroke-width:2.04848552;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#66009e;fill-opacity:1;stroke:none;stroke-width:2.11666656;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.83838387"
+       id="rect9584"
+       width="50.800007"
+       height="279.39999"
+       x="457.19998"
+       y="17.6" />
+    <rect
+       style="opacity:1;fill:#007815;fill-opacity:1;stroke:none;stroke-width:2.04848552;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect9586"
        width="507.00983"
-       height="67.801521"
-       x="1.0242428"
-       y="9.0992508" />
+       height="152.39999"
+       x="0.49508166"
+       y="9.133338" />
     <rect
-       style="opacity:1;fill:#600083;fill-opacity:1;stroke:#00007b;stroke-width:2.04848552;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#007815;fill-opacity:1;stroke:none;stroke-width:2.04848552;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect9569"
        width="507.0098"
-       height="67.801521"
-       x="1.0242428"
-       y="229.23257" />
-    <g
-       id="g10163">
-      <rect
-         y="373.33218"
-         x="137.69727"
-         height="6.7351923"
-         width="5.9868374"
-         id="rect9618"
-         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#00007b;stroke-width:2.11666656;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <rect
-         y="361.35852"
-         x="148.17422"
-         height="6.7351923"
-         width="6.7351923"
-         id="rect10151"
-         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#00007b;stroke-width:2.11666656;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <rect
-         y="405.51144"
-         x="160.89626"
-         height="5.9868374"
-         width="5.9868374"
-         id="rect10153"
-         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#00007b;stroke-width:2.11666656;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <rect
-         y="383.80914"
-         x="174.36664"
-         height="5.238483"
-         width="6.7351923"
-         id="rect10157"
-         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#00007b;stroke-width:2.11666656;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    </g>
-    <path
-       style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:0.09354427px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 228.59999,212.33334 -8.46666,16.93333 8.46666,-4.23334 8.46667,4.23334 z"
-       id="path10213"
-       inkscape:connector-curvature="0" />
-    <rect
-       style="opacity:1;fill:url(#linearGradient14738);fill-opacity:1;stroke:none;stroke-width:2.11666656;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect10215"
-       width="507.99997"
-       height="507.99997"
-       x="-524.93329"
-       y="144.60001"
-       inkscape:export-filename="/Users/dev-galan/projects/LD42/game/Walls/body.png"
-       inkscape:export-xdpi="96.400002"
-       inkscape:export-ydpi="96.400002" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#fcfcfc;stroke-width:2.1166666;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 591.53404,110.73335 V 618.73333"
-       id="path10217"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/Users/dev-galan/projects/LD42/game/Walls/outline.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <g
-       id="g16830">
-      <path
-         inkscape:connector-curvature="0"
-         id="path14748"
-         d="m 291.57069,364.7332 -7.9375,16.93333 4.23347,1.4e-4 3.70415,-2.11667 z"
-         style="fill:#ffffff;fill-opacity:0.25098039;fill-rule:evenodd;stroke:none;stroke-width:0.09354427px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         sodipodi:nodetypes="ccccc" />
-      <path
-         sodipodi:nodetypes="ccccc"
-         style="fill:#ffffff;fill-opacity:0.25098039;fill-rule:evenodd;stroke:none;stroke-width:0.09354427px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 292.62908,364.7332 7.9375,16.93333 -4.23325,1.4e-4 -3.70425,-2.11681 z"
-         id="path14750"
-         inkscape:connector-curvature="0" />
-      <g
-         transform="matrix(0.49999831,0,0,0.49999831,143.93382,190.83398)"
-         inkscape:export-ydpi="96"
-         inkscape:export-xdpi="96"
-         inkscape:export-filename="/Users/dev-galan/projects/LD42/game/Player/player.png"
-         id="g10225">
-        <path
-           inkscape:connector-curvature="0"
-           id="path10219"
-           d="m 295.27499,364.73333 -7.40833,16.93333 7.40833,-4.23334 z"
-           style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:0.09354427px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           sodipodi:nodetypes="cccc" />
-        <path
-           sodipodi:nodetypes="cccc"
-           style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:0.09354427px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           d="m 297.39172,364.73333 7.40833,16.93333 -7.40833,-4.23334 z"
-           id="path10221"
-           inkscape:connector-curvature="0" />
-      </g>
-    </g>
+       height="50.834087"
+       x="0.49509782"
+       y="246.2" />
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#fcfcfc;stroke-width:0.02581301;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect14713"
@@ -791,66 +488,6 @@
        inkscape:export-filename="/Users/dev-galan/projects/LD42/game/Stars/stars.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
-    <path
-       style="opacity:1;fill:url(#pattern16799);fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.05833328;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 307.975,-277.67499 h 10.05416 l 2.64584,2.64584 v 247.12082 l -2.64584,2.645833 H 307.975 l -2.64584,-2.645833 v -247.12082 z"
-       id="rect14762"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccc"
-       inkscape:export-filename="/Users/dev-galan/projects/LD42/game/Enemies/cannon_block.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <g
-       id="g14746"
-       inkscape:export-filename="/Users/dev-galan/projects/LD42/game/Enemies/rapid_cannon.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       transform="matrix(0.71625348,0,0,0.71625348,88.88832,-9.411772)">
-      <path
-         inkscape:connector-curvature="0"
-         inkscape:export-ydpi="96"
-         inkscape:export-xdpi="96"
-         inkscape:export-filename="/Users/dev-galan/projects/LD42/game/Enemies/rapid_cannon.png"
-         id="path14715"
-         d="m 313.26666,-41.674673 a 8.4666663,8.4666663 0 0 0 -8.46666,8.466666 8.4666663,8.4666663 0 0 0 8.14834,8.450647 3.1749999,3.1749999 0 0 1 -2.85668,-3.15898 3.1749999,3.1749999 0 0 1 3.175,-3.175 3.1749999,3.1749999 0 0 1 3.175,3.175 3.1749999,3.1749999 0 0 1 -2.95046,3.166989 8.4666663,8.4666663 0 0 0 8.24213,-8.458656 8.4666663,8.4666663 0 0 0 -8.46667,-8.466666 z"
-         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.52916664;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <circle
-         r="8.3364096"
-         cy="-33.212013"
-         cx="313.26666"
-         id="path14742"
-         style="opacity:1;fill:none;fill-opacity:0.50196078;stroke:#616161;stroke-width:1.05833328;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         inkscape:export-filename="/Users/dev-galan/projects/LD42/game/Enemies/path14742.png"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96" />
-    </g>
-    <rect
-       inkscape:export-ydpi="96.400002"
-       inkscape:export-xdpi="96.400002"
-       inkscape:export-filename="/Users/dev-galan/projects/LD42/game/Walls/body_bg.png"
-       y="136.30415"
-       x="-682.55438"
-       height="507.99997"
-       width="507.99997"
-       id="rect14758"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.11666656;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <rect
-       style="stroke:none;fill:url(#pattern16421)"
-       width="16.933332"
-       height="16.933332"
-       x="237.06667"
-       y="-75.533325"
-       id="rect16431"
-       clip-path="none"
-       mask="none" />
-    <rect
-       style="stroke:none;fill:url(#pattern16464)"
-       width="16.933332"
-       height="16.933332"
-       x="237.06667"
-       y="-41.66666"
-       id="rect16474"
-       mask="none" />
     <circle
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.52916664;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path16478"
@@ -864,91 +501,38 @@
        cy="-792.50153"
        rx="3.4080067e-12"
        ry="3.4130181e-12" />
-    <circle
-       style="opacity:1;fill:url(#radialGradient16506);fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.52916665;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="path16482"
-       cx="279.58084"
-       cy="-45.200966"
-       r="2.1166666"
-       inkscape:export-filename="/Users/dev-galan/projects/LD42/game/Enemies/bullet.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <circle
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       inkscape:export-filename="/Users/dev-galan/projects/LD42/game/Player/bullet.png"
-       cy="-45.200962"
-       cx="290.95789"
-       id="circle16490"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.52916664;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       r="2.1166666" />
     <path
-       style="opacity:1;fill:url(#radialGradient16518);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.52916664;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="path16510"
-       sodipodi:type="arc"
-       sodipodi:cx="44.556961"
-       sodipodi:cy="263.13745"
-       sodipodi:rx="4.2333331"
-       sodipodi:ry="1.0583333"
-       sodipodi:start="0"
-       sodipodi:end="3.1415927"
-       d="m 48.790294,263.13745 a 4.2333331,1.0583333 0 0 1 -2.116666,0.91654 4.2333331,1.0583333 0 0 1 -4.233334,0 4.2333331,1.0583333 0 0 1 -2.116666,-0.91654 l 4.233333,0 z"
-       inkscape:export-filename="/Users/dev-galan/projects/LD42/game/Enemies/laser.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       transform="rotate(-90)" />
+       style="fill:none;fill-rule:evenodd;stroke:#000061;stroke-width:2.11666656;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 8.8888259e-7,160.475 H 507.99999"
+       id="path5272"
+       inkscape:connector-curvature="0" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.52916665;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 269.67654,-541.99372 V -33.993739"
-       id="path16538"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="/Users/dev-galan/projects/LD42/game/Enemies/laser_guide.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <g
-       id="g16575"
-       inkscape:export-filename="/Users/dev-galan/projects/LD42/game/Enemies/laser_cannon.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
-      <path
-         transform="matrix(0.26458333,0,0,0.26458333,0,225.5625)"
-         id="path16568"
-         d="M 1250.75 -1005.9102 A 24 24 0 0 0 1230.75 -982.25 A 24 24 0 0 0 1250.75 -958.61133 L 1250.75 -1005.9102 z M 1258.75 -1005.8887 L 1258.75 -958.58984 A 24 24 0 0 0 1278.75 -982.25 A 24 24 0 0 0 1258.75 -1005.8887 z "
-         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <circle
-         inkscape:export-ydpi="96"
-         inkscape:export-xdpi="96"
-         inkscape:export-filename="/Users/dev-galan/projects/LD42/game/Enemies/laser_cannon.png"
-         style="opacity:1;fill:none;fill-opacity:0.50196078;stroke:#616161;stroke-width:0.75803488;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="circle16544"
-         cx="331.98593"
-         cy="-34.324474"
-         r="5.9709826" />
-    </g>
-    <rect
-       style="stroke:none;fill:url(#pattern16799)"
-       width="16.933332"
-       height="16.933332"
-       x="203.2"
-       y="-41.66666"
-       id="rect16808" />
-    <g
-       id="g16823"
-       inkscape:export-filename="/Users/dev-galan/projects/LD42/game/Player/move_particle.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
-      <path
-         sodipodi:nodetypes="ccccc"
-         style="fill:#ffffff;fill-opacity:0.25098039;fill-rule:evenodd;stroke:none;stroke-width:0.09354427px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 316.97073,364.7332 -7.9375,16.93333 4.23347,1.4e-4 3.70415,-2.11667 z"
-         id="path16817"
-         inkscape:connector-curvature="0" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path16819"
-         d="m 318.02912,364.7332 7.9375,16.93333 -4.23325,1.4e-4 -3.70425,-2.11681 z"
-         style="fill:#ffffff;fill-opacity:0.25098039;fill-rule:evenodd;stroke:none;stroke-width:0.09354427px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         sodipodi:nodetypes="ccccc" />
-    </g>
+       id="path5274"
+       d="M 1.3333354e-6,245.14167 H 507.99999"
+       style="fill:none;fill-rule:evenodd;stroke:#000061;stroke-width:2.11666656;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:2.11666656;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 457.2,9.1333373 V 297"
+       id="path5276"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path5278"
+       d="M 288.925,9.1333373 V 297"
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:2.11666656;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#800000;stroke-width:1.58749998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.35686275;paint-order:stroke markers fill"
+       x="333.45438"
+       y="227.69681"
+       id="text5282"><tspan
+         sodipodi:role="line"
+         id="tspan5280"
+         x="333.45438"
+         y="227.69681"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.55554962px;font-family:'Poiret One';-inkscape-font-specification:'Poiret One 100';fill:#ffffff;stroke:#800000;stroke-width:1.58749998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.35686275;paint-order:stroke markers fill">Iris</tspan></text>
   </g>
 </svg>
