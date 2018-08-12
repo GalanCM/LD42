@@ -4,6 +4,8 @@ const MOVEMENT_SPEED = 360
 
 var velocity_modifier = Vector2()
 
+var bullet_cooled = true
+
 func _physics_process(delta):
 	var motion = velocity_modifier
 	
@@ -34,6 +36,19 @@ func _physics_process(delta):
 		else:
 			velocity_modifier.y += FRICTION
 	
+	if bullet_cooled and Input.is_action_pressed("Fire"):
+		var bullet = preload("res://Player/Bullet.tscn").instance()
+		bullet.global_position = global_position
+		
+		Game.get_unique_node("BulletLayer").add_child( bullet )
+		
+		bullet_cooled = false
+		yield(get_tree().create_timer(0.15), "timeout")
+		bullet_cooled = true
+	
 func push( force ):
-#	print(force)
 	velocity_modifier += force / 4
+	
+func take_damage(amount):
+	return
+	queue_free()
