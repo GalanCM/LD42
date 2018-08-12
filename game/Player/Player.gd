@@ -2,12 +2,24 @@ extends KinematicBody2D
 
 const MOVEMENT_SPEED = 360
 
+const MAX_HEALTH = 10.0
+var health = MAX_HEALTH
+
+const MAX_STAMINA = 3
+var stamina = MAX_STAMINA
+
 var velocity_modifier = Vector2()
 
 var bullet_cooled = true
 var dodge = null
 
+var invulnerable = false
+
 func _physics_process(delta):
+	if not invulnerable:
+		health = min(health + 0.5 * delta, MAX_HEALTH)
+	if $StaminaTimer.time_left < 0.00001 and stamina < MAX_STAMINA:
+		stamina += (3.0/5) * delta
 	var motion = Vector2()
 	
 	if dodge == null:
@@ -20,8 +32,10 @@ func _physics_process(delta):
 		if Input.is_action_pressed("Right"):
 			motion.x += 1
 			
-		if Input.is_action_just_pressed("Dodge"):
+		if Input.is_action_just_pressed("Dodge") and stamina > 0:
 			dodge = motion * 5
+			stamina = max( stamina-1.0001, 0 )
+			$StaminaTimer.start()
 			$DodgeParticles.emitting = true
 			
 			yield(get_tree().create_timer(0.2), "timeout")
@@ -63,5 +77,12 @@ func push( force ):
 	var dodge = null
 	
 func take_damage(amount):
-	return
-	queue_free()
+	if invulnerable:
+		return
+		
+	health -= amount
+	
+	invulnerable = true
+	yield(get_tree().create_timer(0.5), "timeout")
+	invulnerable = false
+	

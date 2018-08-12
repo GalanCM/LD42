@@ -1,7 +1,7 @@
 extends Node2D
 
 var current_area = 1_600_000
-var cannon_density = 0.05
+var cannon_density = 0.1
 
 var allow_new_cannons = false
 
