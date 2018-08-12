@@ -47,4 +47,9 @@ func take_damage(amount):
 	$"../HitPlayer".play()
 
 	if health <= 0:
+		$"../AnimationPlayer".play("Death")
+		$CollisionShape2D.disabled = true
+		$"../BlockCollision".disabled = true
+		
+		yield($"../AnimationPlayer", "animation_finished")
 		get_parent().queue_free()

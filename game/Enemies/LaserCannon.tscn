@@ -20,7 +20,6 @@ position = Vector2( 0, 0 )
 
 [node name="Body" parent="Cannon" index="1"]
 
-self_modulate = Color( 1, 1, 1, 0 )
 texture = ExtResource( 4 )
 
 [node name="AnimationPlayer" parent="Cannon" index="3"]

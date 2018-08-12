@@ -1,5 +1,7 @@
 extends Node
 
+var tutorial_shown = false
+
 func get_unique_node(name):
 	var group = get_tree().get_nodes_in_group(name)
 	

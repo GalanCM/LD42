@@ -19,7 +19,7 @@ tracks/0/keys = {
 "times": PoolRealArray( 0, 1 ),
 "transitions": PoolRealArray( 1, 1 ),
 "update": 0,
-"values": [ -80.0, -45.0 ]
+"values": [ -80.0, -40.0 ]
 }
 
 [node name="MusicPlayer" type="Node"]
@@ -27,7 +27,7 @@ tracks/0/keys = {
 [node name="Percussion" type="AudioStreamPlayer" parent="." index="0"]
 
 stream = ExtResource( 1 )
-volume_db = -45.0
+volume_db = -40.0
 pitch_scale = 1.0
 autoplay = true
 mix_target = 0
