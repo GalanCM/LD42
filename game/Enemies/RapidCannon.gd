@@ -5,11 +5,13 @@ var spawn_delay = 0
 
 func _ready():
 	set_physics_process(false)
+	$CollisionShape2D.disabled = true
 	yield(get_tree().create_timer(spawn_delay * 2), "timeout")
 
 	$"../AnimationPlayer".play("Intro")
 	yield($"../AnimationPlayer", "animation_finished")
 	set_physics_process(true)
+	$CollisionShape2D.disabled = false
 
 	yield(get_tree().create_timer(0.1), "timeout")
 

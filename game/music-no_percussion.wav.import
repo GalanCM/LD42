@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/music-no_percussion.wav-525cdc2cc31b3625dc21fa6ef9314300.sample"
+
+[deps]
+
+source_file="res://music-no_percussion.wav"
+dest_files=[ "res://.import/music-no_percussion.wav-525cdc2cc31b3625dc21fa6ef9314300.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

@@ -17,7 +17,7 @@ var invulnerable = false
 
 func _physics_process(delta):
 	if not invulnerable:
-		health = min(health + 0.5 * delta, MAX_HEALTH)
+		health = min(health + 0.1 * delta, MAX_HEALTH)
 	if $StaminaTimer.time_left < 0.00001 and stamina < MAX_STAMINA:
 		stamina += (3.0/5) * delta
 	var motion = Vector2()
