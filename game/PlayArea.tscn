@@ -198,7 +198,7 @@ random_pitch = 1.1
 audio_stream = ExtResource( 10 )
 random_pitch = 1.1
 
-[node name="PlayArea" type="Node2D"]
+[node name="PlayArea" type="Node2D" index="0"]
 
 script = ExtResource( 1 )
 _sections_unfolded = [ "Transform" ]
@@ -407,7 +407,6 @@ _sections_unfolded = [ "Process Material", "Textures", "Time" ]
 
 [node name="LeftWall" type="KinematicBody2D" parent="." index="4"]
 
-editor/display_folded = true
 position = Vector2( 0, 540 )
 input_pickable = false
 collision_layer = 1024

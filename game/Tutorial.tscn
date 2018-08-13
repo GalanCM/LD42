@@ -38,7 +38,7 @@ size = 100
 use_mipmaps = false
 use_filter = true
 font_data = ExtResource( 2 )
-_sections_unfolded = [ "Settings" ]
+_sections_unfolded = [ "Font", "Settings" ]
 
 [sub_resource type="Animation" id=6]
 
