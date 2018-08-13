@@ -1,7 +1,7 @@
 extends Node2D
 
 var current_area = 1_600_000
-var cannon_density = 0.1
+var cannon_density = 0.05
 
 var allow_new_cannons = false
 
@@ -51,8 +51,7 @@ func create_space():
 	
 func create_cannons(dimensions, padding):
 	var cannon_count = floor( (dimensions.x/64) * (dimensions.y/64) * cannon_density )
-	print(cannon_count)
-	var grid_size = Vector2( floor(dimensions.x / 64), floor(dimensions.y / 64 ) )
+	var grid_size = Vector2( floor(dimensions.x / 64), floor(dimensions.y / 64) )
 	var cannon_locations = []
 	
 	for cannon_num in range(0, cannon_count):
@@ -85,4 +84,7 @@ func create_cannons(dimensions, padding):
 				break
 				
 	allow_new_cannons = true
-#	cannon_density -= cannon_density * 0.1
+	if cannon_density < 0.5:
+		cannon_density += 0.03
+	elif cannon_density < 0.1:
+		cannon_density += 0.05
